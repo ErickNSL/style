@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbutton">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="linked">
+            <img src="{% static 'images/logo.png' %}" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <img src="{% static 'images/forest.jpg' %}" alt="">
+    </section>
+
+    
+</body>
+</html>
